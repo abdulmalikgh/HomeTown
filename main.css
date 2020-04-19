@@ -374,3 +374,6 @@ footer a {
   color: #333;
   padding:1.5em
 }
+.header__icon{
+  visibility: hidden;
+}
