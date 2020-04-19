@@ -16,6 +16,7 @@
     float:right;
     padding-right: 1.5em;
     visibility: visible;
+    cursor: pointer;
 }
 .nav{
     z-index:10;
@@ -23,11 +24,13 @@
     background:white;
     position:absolute;
     visibility: hidden;
+    transition: width 0.2s ease;
 }
 .nav__item{
     display:block
 }
 
-nav .open{
+nav.open{
 visibility: visible;
+transition: 0.3s ease-in;
 }
